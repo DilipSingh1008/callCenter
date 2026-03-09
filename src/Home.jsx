@@ -6,7 +6,8 @@ import {
 } from 'react-icons/fa';
 
 const Home = () => {
-  const contactNumber = "919884579998";
+  const contactNumber = "919784579998";
+  const calling = "918078639949"
   const waLink = `https://wa.me/${contactNumber}?text=Namaste, I am interested in the Call Center Job.`;
 
   // --- Slider Logic ---
@@ -52,7 +53,7 @@ const Home = () => {
             <a href={waLink} className="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white px-10 py-5 rounded-2xl font-black text-xl flex items-center justify-center gap-3 transition-all hover:scale-105 shadow-[0_20px_50px_rgba(34,197,94,0.3)]">
               <FaWhatsapp className="text-3xl" /> APPLY NOW
             </a>
-            <a href={`tel:${contactNumber}`} className="w-full sm:w-auto bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-10 py-5 rounded-2xl font-bold text-xl transition-all">
+            <a href={`tel:${calling}`} className="w-full sm:w-auto bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-10 py-5 rounded-2xl font-bold text-xl transition-all">
               CONTACT HR
             </a>
           </div>
