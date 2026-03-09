@@ -6,7 +6,7 @@ import {
 } from 'react-icons/fa';
 
 const Home = () => {
-  const contactNumber = "918078639949";
+  const contactNumber = "919884579998";
   const waLink = `https://wa.me/${contactNumber}?text=Namaste, I am interested in the Call Center Job.`;
 
   // --- Slider Logic ---
